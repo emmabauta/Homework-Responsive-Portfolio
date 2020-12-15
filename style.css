@@ -1,0 +1,49 @@
+/*index.html styling*/
+
+img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.pageback {
+    background-image:url("https://cdn.shopify.com/s/files/1/0153/0623/products/Pick-Up_Sticks_Wallpaper_in_Black_from_the_Magnolia_Home_Vol._3_Collection_by_Joanna_Gaines_5a765092-a2a8-4f7c-aa90-f7f62702c6b0_large.jpg?v=1571711266");
+}
+
+.portfolioImage {
+    height: 350px;
+    width: 350px;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+.cardbox {
+    width:100%;
+}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+.cardbox {
+    width: 75%;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+.cardbox {
+    width: 50%;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+.cardbox {
+    width: 40%;
+}
+}
